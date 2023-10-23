@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.container{
+    width: 1250px;
+    height: 60px;
+    margin: auto;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.div1{
+    width: 10%;
+    height: 60px;
+    background-color: blueviolet;
+}
+.div2{
+    width: 45%;
+    height: 60px;
+    background-color: darkcyan;
+}
+.div3{
+    width: 10%;
+    height: 60px;
+    background-color: darkkhaki;
+}
+.first{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width: 1250px;
+    height: 400px;
+    margin: auto;
+}
+.navbar1{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.div4{
+    width: 45%;
+    height: 400px;
+    background-color: lightcoral;
+}
+.div5{
+    width: 45%;
+    height: 400px;
+    background-color: darkmagenta;
+}
+.second{
+    width: 100%;
+    height: 600px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container2{
+    width: 1250px;
+    height: 500px;
+    margin: auto;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.div6{
+    
+    width:700px;
+    height: 220px;
+    background-color: lightgreen;
+}
+.div7{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.div7 div{
+    width: 390px;
+    height: 220px;
+    background-color: lightpink;
+}
+.third{
+    width: 100%;
+    height: 650px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    width: 1250px;
+    height: 600px;
+    margin: auto;
+}
+.navbar3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.div8{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.div9{
+    width:100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.div8 div{
+    width: 290px;
+    height: 100px;
+    background-color:forestgreen ;
+}
+.div9 div{
+    width: 49%;
+    height: 380px;
+    background-color: yellow;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4{
+    width: 1250px;
+    height: 700px;
+    margin: auto;
+}
+.navbar4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    height: 700px;
+}
+.div10{
+    width: 100%;
+    height: 100px;
+    background-color: lightpink;
+}
+.div11{
+    width: 100%;
+    height: 400px;
+    background-color: lightskyblue;
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5{
+    width: 1250px;
+    height: 400px;
+    margin: auto;
+}
+.navbar5{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    height: 500px;
+}
+.div12{
+    width: 45%;
+    height: 400px;
+    background-color: gainsboro;
+}
+.div13{
+    width: 45%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+.box2{
+    width: 100%;
+    height: 900px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container6{
+    width: 1250px;
+    height: 700px;
+    margin: auto;
+}
+.navbar6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.div14{
+    width:700px;
+    height: 200px;
+    background-color: lightgreen;
+}
+.div15{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.div15 div{
+    width: 390px;
+    height: 500px;
+    background-color: lightpink;
+}
+.box3{
+    width: 100%;
+    height: 650px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container7{
+    width: 1250px;
+    height: 600px;
+    margin: auto;
+}
+.navbar7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+.div16{
+    width: 700px;
+    height: 170px;
+    background-color: powderblue;
+}
+.div17{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.div18{
+    width: 49%;
+    height: 240px;
+    background-color: violet;
+}
+.div19{
+    width: 49%;
+    height: 240px;
+    background-color: violet;
+}
+.box4{
+    width: 100%;
+    height: 700px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container8{
+    width: 1250px;
+    height: 400px;
+    margin: auto;
+}
+.navbar8{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    height: 500px;
+}
+.div20{
+    width: 45%;
+    height: 400px;
+    background-color: hotpink;
+}
+.div21{
+    width: 45%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+.box5{
+    width: 100%;
+    height: 450px;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container9{
+    width: 1250px;
+    height: 300px;
+    margin: auto;
+}
+.navbar9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div22{
+    width: 67%;
+    height: 300px;
+    background-color: aqua;
+}
+.box6{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(7, 2, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container10{
+    width: 1250px;
+    height: 300px;
+    margin: auto;
+}
+
+.div23{
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 83px;
+}
+.one{
+    width: 35%;
+    height: 220px;
+    background-color: whitesmoke;
+}
+.two{
+    width: 32%;
+    height: 200px;
+    background-color: whitesmoke;
+}
+.three{
+    width: 20%;
+    height: 200px;
+    background-color: whitesmoke;
+}
